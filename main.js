@@ -33,6 +33,15 @@ const grades = [100, 80, 110, 75, 83, 64];
 // Console.log out only the even numbers in the following array.
 const positiveNumbers = [5, 2, 13, 17, 4, 102, 3000];
 
+let evenNum =[]
+let total = 0
+for(let i = 0; i < positiveNumbers.length; i++){
+  if(positiveNumbers[i] % 2 === 0){
+    total++
+    evenNum.push(positiveNumbers[i])
+  }
+}
+console.log(evenNum)
 
 // Challenge 4
 // Console.log out the even numbers in the following array, INCLUDING the negative ones. There should be four total printings.
